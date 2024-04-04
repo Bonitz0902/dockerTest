@@ -26,7 +26,7 @@ pipeline{
         }
     }
 
-    trigger{
+    triggers{
         polSCM '* * * * *'
     }
 }
