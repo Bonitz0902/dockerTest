@@ -1,15 +1,22 @@
 pipeline{
     stages{
         stage('test'){
-            echo "Testign"
+            steps{
+                echo "Testign"
+            }
+           
         }
 
         stage('build'){
-            echo "build..."
+            steps{
+                echo "build"
+            }
         }
 
         stage('end'){
-            echo "end.."
+            steps{
+                echo "end"
+            }
         }
     }
 }
