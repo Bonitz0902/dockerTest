@@ -1,4 +1,10 @@
 pipeline{
+    agent{
+        node{
+            label 'Docker_JAVA'
+        }
+    }
+
     stages{
         stage('test'){
             steps{
