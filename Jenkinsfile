@@ -25,4 +25,8 @@ pipeline{
             }
         }
     }
+
+    trigger{
+        polSCM '* * * * *'
+    }
 }
